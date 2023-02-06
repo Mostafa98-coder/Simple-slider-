@@ -1,0 +1,49 @@
+    .item-content {
+        position: absolute;
+        left: 5%;
+        bottom: 10px;
+        background-color: #ffff;
+        text-align: center;
+        width: 90%;
+    }
+    
+    .item {
+        position: relative;
+        margin: 10px 0px;
+        cursor: pointer;
+    }
+    
+    #lightBoxContainer {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #lightbox {
+        width: 50%;
+        height: 500px;
+        background-image: url(../images/team-1.png);
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    
+    i {
+        margin: 5px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    
+    #closebtn {
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
